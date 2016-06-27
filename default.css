@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://static.pexels.com/photos/5836/yellow-metal-design-decoration.jpg);
+  background-size: cover;
+}
+main {
+  background: white;
+  height: 25%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+  font-family: "Lato";
+}
