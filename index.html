@@ -14,10 +14,10 @@
     <h1> Random quote machine </h1>
     <p> Get your todays quote! </p>
     <div id="quote">
-
-      <h1>Water, air, and cleanness are the chief articles in my pharmacy.</h1>
-      <figcaption> Napoleon Bonaparte </figcaption>
-
+      <script type="text/javascript" src="quotes.js">
+      document.getElementById("quote-button").addEventListener("click", generateQuote);
+      </script>
+      <h2 id="quote-placement"></h2>
     </div>
     <button type="button" class="btn-success" id="quote-button"> Generate! </button>
   </div>
