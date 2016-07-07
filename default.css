@@ -1,6 +1,7 @@
 body {
   background-image: url(https://static.pexels.com/photos/8133/brush-painting-paint-brushes-8133.jpg);
   background-size: cover;
+  background-repeat:no-repeat;;
   display: table;
 }
 main {
